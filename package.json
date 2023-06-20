@@ -1,0 +1,49 @@
+{
+  "name": "ambulance-list",
+  "version": "0.0.1",
+  "description": "Stencil Component Starter",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/ambulance-list/ambulance-list.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+  },
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "dependencies": {
+    "@material/mwc-icon": "^0.27.0",
+    "@material/mwc-list": "^0.27.0",
+    "@stencil/core": "^2.13.0",
+    "axios": "^1.2.2",
+    "axios-mock-adapter": "^1.21.2",
+    "help": "^3.0.2"
+  },
+  "devDependencies": {
+    "@material/mwc-button": "^0.27.0",
+    "@material/mwc-fab": "^0.27.0",
+    "@material/mwc-select": "^0.27.0",
+    "@material/mwc-slider": "^0.27.0",
+    "@material/mwc-textfield": "^0.27.0",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "jest-cli": "^27.4.5",
+    "puppeteer": "^10.0.0",
+    "stencil-router-v2": "^0.6.0"
+  },
+  "license": "MIT"
+}

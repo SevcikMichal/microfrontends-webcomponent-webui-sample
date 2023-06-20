@@ -1,0 +1,43 @@
+:host {
+  display: block;
+}
+
+mwc-textfield, mwc-select,  mwc-button {
+  margin: 1ex;
+  display: block;
+}
+
+.duration-slider {
+  display: flex;
+  align-content: space-around;
+}
+
+.duration-slider .label {
+  flex: 0 0 auto;
+  font-size: var(--mdc-typography-subtitle1-font-size, 1rem);  
+  color: var(--mdc-text-field-label-ink-color, rgba(0, 0, 0, 0.6));
+  font-family: Roboto;
+  align-self: center;
+}
+
+mwc-slider {
+  display: inline-block;
+  flex: 1 1 auto;
+  min-width: 30ex; 
+}
+
+mwc-button#cancel{ 
+ --mdc-theme-primary: black;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+
+  border-top: 2px solid var(--mdc-theme-secondary, #018786);
+  padding-top: 1ex;
+}
+
+.stretch-fill {
+  flex: 10 0 0;
+}
