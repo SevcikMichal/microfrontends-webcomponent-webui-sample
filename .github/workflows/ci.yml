@@ -34,9 +34,9 @@ jobs:
         context: .
         push: true
         tags: |
-          msevcik/ambulance-ufe:1.0.0-${{ github.run_number }}
-          msevcik/ambulance-ufe:latest
-          msevcik/ambulance-ufe:dev-latest
+          msevcik/microfrontends-webcomponent-webui-sample:1.0.0-${{ github.run_number }}
+          msevcik/microfrontends-webcomponent-webui-sample:latest
+          msevcik/microfrontends-webcomponent-webui-sample:dev-latest
       env:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
