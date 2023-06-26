@@ -40,6 +40,6 @@ jobs:
         context: .
         push: true
         tags: |
-          msevcik/microfrontends-webcomponent-webui-sample:1.0.0-${{ github.run_number }}
-          msevcik/microfrontends-webcomponent-webui-sample:latest
-          msevcik/microfrontends-webcomponent-webui-sample:dev-latest
+          sevcikmichal/microfrontends-webcomponent-webui-sample:1.0.0-${{ github.run_number }}
+          sevcikmichal/microfrontends-webcomponent-webui-sample:latest
+          sevcikmichal/microfrontends-webcomponent-webui-sample:dev-latest
